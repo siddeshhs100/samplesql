@@ -1,13 +1,8 @@
-/*Added By Siddesh */
 
-USE [Claims_Diff]
+CREATE TABLE [dbo].[Pipeline_Test](
+	[Column_A] [varchar](10) NULL,
+	[Column_B] [varchar](10) NULL
+) ON [PRIMARY]
 GO
 
-INSERT INTO [dbo].[Pipeline_Test]
-           ([Column_A]
-           ,[Column_B])
-     VALUES
-           ('A'
-           ,'B')
-GO
 
