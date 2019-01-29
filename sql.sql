@@ -1,10 +1,13 @@
 /*Added By Siddesh */
 
-USE [Bordereaux]
+USE [Claims_Diff]
 GO
 
-INSERT INTO [dbo].[test]
-           ([name])
+INSERT INTO [dbo].[Pipeline_Test]
+           ([Column_A]
+           ,[Column_B])
      VALUES
-           ('abc')
+           ('A'
+           ,'B')
 GO
+
